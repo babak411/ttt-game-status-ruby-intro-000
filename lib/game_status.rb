@@ -47,3 +47,5 @@ def draw?(board)
    false
  else WIN_COMBINATIONS(board) == true
    false
+end
+end
