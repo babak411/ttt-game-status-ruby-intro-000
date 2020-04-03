@@ -57,4 +57,3 @@ def winner(board)
     return board(win_combination)
  end
  end
- 
