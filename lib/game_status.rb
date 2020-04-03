@@ -51,3 +51,13 @@ end
 def over?(board)
   won?(board) || full?(board) || draw?(board)
 end
+
+def winner(board)
+  if won?(board) == false
+    false
+  elsif board[index[0]] == "X"
+    "X"
+  else
+    "O"
+end
+end
